@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the colourfull koalas NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The coloufull koalas NFT Project is a decentralized, open-source project that aims to grow a large community of NFT lovers galore';
+const welcome_p = 'The coloufull koalas NFT Project is a decentralized, open-source project, they are the first of a new generation nft koalas';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
