@@ -8,11 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "colourfull koalas";
-<<<<<<< HEAD
 const description = "these are the first of the colourfull koalas who want to hang out on the chain";
-=======
-const description = "these are the first of the colourfull koalas who want to hang out on the chain";
->>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -53,11 +49,7 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-<<<<<<< HEAD
 const CONTRACT_NAME = 'Colourfullkoalas';
-=======
-const CONTRACT_NAME = 'Colourfullkoalas';
->>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 const CONTRACT_SYMBOL = 'CFK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x8054f81e79e5161Cc0086F33e78b499CBc62d865';
@@ -67,11 +59,7 @@ const MINT_PRICE = 4; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. 
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-<<<<<<< HEAD
 const PUBLIC_MINT_START_DATE = "2022-09-04T10:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
-=======
-const PUBLIC_MINT_START_DATE = "2022-09-04T10:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
->>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
