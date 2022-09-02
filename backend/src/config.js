@@ -8,7 +8,11 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "colourfull koalas";
-const description = "the first generation of colourfull koalas who want to hang on the chain";
+<<<<<<< HEAD
+const description = "these are the first of the colourfull koalas who want to hang out on the chain";
+=======
+const description = "these are the first of the colourfull koalas who want to hang out on the chain";
+>>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -49,17 +53,25 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'colourfullkoalas';
+<<<<<<< HEAD
+const CONTRACT_NAME = 'Colourfullkoalas';
+=======
+const CONTRACT_NAME = 'Colourfullkoalas';
+>>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 const CONTRACT_SYMBOL = 'CFK';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x8054f81e79e5161Cc0086F33e78b499CBc62d865';
 const TREASURY_ADDRESS = '0x8054f81e79e5161Cc0086F33e78b499CBc62d865';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 4; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-09-04T10:00:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+<<<<<<< HEAD
+const PUBLIC_MINT_START_DATE = "2022-09-04T10:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+=======
+const PUBLIC_MINT_START_DATE = "2022-09-04T10:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+>>>>>>> 5de88d8d3309fec7c330e01ca88e0822437adc65
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
@@ -94,7 +106,7 @@ try {
 
 const solanaMetadata = {
   symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 500, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
